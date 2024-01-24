@@ -11,26 +11,50 @@
 </head>
 
 <body>
-
-    <!-- Homepage Header Model -->
     <header id="homepage-header" class="site-header">
-      <div class="logo">
-        <h1>ScriBBler</h1>
-        <p>Explore, Imagine, Create</p>
-      </div>
-      <div class="buttons">
-        <span class="signup-signin">
-          <a href="#" class="button signup-btn">Sign Up</a>
-          <a href="#" class="button login-btn">Sign In</a>
-        </span>
-      </div>
+        <div class="logo">
+            <h1>ScriBBler</h1>
+            <p>Explore, Imagine, Create</p>
+        </div>
+        <div class="buttons">
+            <span class="signup-signin">
+                <a href="#" class="button signup-btn">Sign Up</a>
+                <a href="#" class="button login-btn">Sign In</a>
+            </span>
+        </div>
     </header>
-    <div class = "center-container">   
+
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Welcome Back</h2>
+            <div class="form-element">
+                <label for="email">Username</label>
+                <input type="text" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <div class="form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+                <button id="signin-button">Sign in</button>
+            </div>
+            <div class="form-element">
+                <a href="#">Forgot password</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="center-container">
         <button class="centered-button">All Posts</button>
         <button class="centered-button">Create Posts</button>
-      
-
     </div>
-  </body>
-  </html>
-  
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
