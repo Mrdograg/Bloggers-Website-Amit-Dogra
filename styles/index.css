@@ -192,3 +192,58 @@ body {
     color: #0000ff;
     cursor: pointer;
 }
+
+
+.create-post-popup-content {
+    width: 80%;
+}
+
+.create-post-popup-textarea {
+    height: 40vh;
+    font-family: Arial;
+}
+
+.create-post-popup-btn {
+    width: 120px;
+    align-self: center;
+}
+
+.create-post-body {
+    position: relative;
+    width: 70%;
+    margin: 1% auto auto auto;
+    text-align: left;
+    background-color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+}
+
+.close-btn-create-post-dialog {
+    position: absolute;
+    right: 20px;
+    /* top: 10px; */
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.close-btn-create-post-dialog:hover,
+.close-btn-create-post-dialog:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+#createPostModal a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#createPostModal a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}

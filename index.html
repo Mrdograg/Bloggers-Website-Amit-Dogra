@@ -80,6 +80,27 @@
     </div>
     <!-- signin modal-->
 
+    <!-- Create post -->
+    <div id="createPostPopup" class="popup">
+        <div class="popup-content create-post-popup-content">
+            <div class="flex-container">
+                <h1 class="popup-heading">Pen Your Post</h1>
+                <span onclick="closeNewPostDialog()" class="close-btn">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+            </div>
+            <hr class="popup-horizontal-rule">
+            <form class="popup-form">
+                <label for="postTitle" class="popup-label">Title</label>
+                <input type="text" class="popup-textbox" placeholder="Enter title of your post" name="postTitle" required>
+                <label for="postContent" class="popup-label">Contents</label>
+                <textarea class="popup-textbox create-post-popup-textarea" placeholder="Enter the contents of your post" name="postContent" required></textarea>
+                <button type="submit" class="popup-btn create-post-popup-btn">Create</button>
+            </form>
+        </div>
+    </div>
+    <!-- Create post -->
+
     <script src="scripts/index.js"></script>
  
 </body>

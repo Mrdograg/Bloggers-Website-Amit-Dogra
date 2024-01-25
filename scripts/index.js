@@ -15,3 +15,11 @@ function displaySignup() {
     document.getElementById('signIn').style.display = 'none';
     document.getElementById('signUp').style.display = 'block';
 }
+
+function createPost() {
+    document.getElementById('createPostPopup').style.display = 'block';
+}
+
+function closeNewPostDialog() {
+    document.getElementById('createPostPopup').style.display = 'none';
+}
