@@ -1,7 +1,17 @@
-document.querySelector(".login-btn").addEventListener("click", function () {
-    document.querySelector(".popup").classList.add("active");
-});
+function openSignup() {
+    document.getElementById('signUp').style.display = 'block';
+}
 
-document.querySelector(".close-btn").addEventListener("click", function () {
-    document.querySelector(".popup").classList.remove("active");
-});
+function openSignin() {
+    document.getElementById('signIn').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('signIn').style.display = 'none';
+    document.getElementById('signUp').style.display = 'none';
+}
+
+function displaySignup() {
+    document.getElementById('signIn').style.display = 'none';
+    document.getElementById('signUp').style.display = 'block';
+}
