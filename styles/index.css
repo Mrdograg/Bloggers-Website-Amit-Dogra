@@ -8,57 +8,10 @@ body {
     color: black;
 }
 
-.header-container {
-    background-color: #dee2e4;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
 html,
 body {
     height: 100%;
     width: 100%;
-}
-
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.head-container {
-    text-decoration: none;
-}
-
-.head {
-    color: rgb(12, 28, 177);
-    margin: 0;
-    font-family: 'Montez', cursive;
-}
-
-.head-subheading {
-    color: rgb(14, 10, 10);
-    margin: 5px 0 0;
-    font-size: 14px;
-    font-family: 'Ubuntu Mono';
-    font-weight: bold;}
-
-.head-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #1084e4;
-}
-
-.head-button:hover {
-    background-color: #1ec965;
 }
 
 .post-buttons-container {
@@ -84,115 +37,6 @@ body {
     color: #fff;
     background: #1ec965;
 }
-
-
-.popup {
-    display: none;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.popup-content {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1.10);
-    background-color: #fff;
-    width: 380px;
-    padding: 20px 30px;
-    transition: top 0ms ease-in-out 200ms;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.popup-heading {
-    text-align: center;
-    color: #222;
-    margin: 10px 0px 20px;
-    font-size: 30px;
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 15px;
-    height: 15px;
-    background: #888;
-    color: #eee;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.popup-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.popup-horizontal-rule {
-    margin: 10px 0;
-}
-
-.popup-label {
-    font-size: 16px;
-    color: black;
-    letter-spacing: 0.5px;
-    margin: 6px 0px;
-}
-
-.popup-textbox {
-    margin-top: 5px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-}
-
-.popup-btn {
-    float: left;
-    width: 100%;
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-    font-size: 13px;
-    letter-spacing: 1px;
-}
-
-.popup-btn:hover {
-    color: #fff;
-    background: #4CAF50;
-}
-
-.signup-message {
-    padding-top: 10px;
-    font-size: 12px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold
-}
-
-.signup-link {
-    color: #0000ff;
-    cursor: pointer;
-}
-
 
 .create-post-popup-content {
     width: 80%;
