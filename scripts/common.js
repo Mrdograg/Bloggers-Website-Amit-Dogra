@@ -9,6 +9,7 @@ function openSignin() {
 function closeModal() {
     document.getElementById('signIn').style.display = 'none';
     document.getElementById('signUp').style.display = 'none';
+    document.getElementById('createPostPopup').style.display = 'none';
 }
 
 function displaySignup() {

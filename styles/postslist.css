@@ -31,9 +31,10 @@ body {
 
 .post-username {
     font-weight: bold;
-    color: #707070;
+    color: #141313;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;    
     font-size: 16px;
     text-align: center;
 }
@@ -54,8 +55,8 @@ body {
 }
 
 .delete-btn {
-    color: #818181;
-    font-size: 15px;
+    color: #3f3939;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -63,6 +64,7 @@ body {
     font-family: 'Abel', sans-serif;
     color: #818181;
     font-size: 19px;
+    align-self: left;
 }
 
 .post-desc {
@@ -108,6 +110,7 @@ body {
     font-size: 18px;
     color: #000;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .delete-post-btns-container {
@@ -117,13 +120,23 @@ body {
 }
 
 .confirm-delete-btn {
-    width: 80px;
+    width: 100px;
+    padding: 10px;
     align-self: right;
-    background: green;
+    background: rgb(59, 180, 59);
+}
+
+.confirm-delete-btn:hover {
+   color: white;
 }
 
 .cancel-delete-btn {
-    width: 80px;
-    align-self: center;
-    background: #c22;
+    width: 100px;
+    padding: 10px;
+    align-self: left;
+    background: rgb(236, 58, 58);
 }
+
+.cancel-delete-btn:hover {
+    color: white;
+ }

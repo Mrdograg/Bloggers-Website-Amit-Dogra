@@ -19,11 +19,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 
 }
 .post-button {
     padding: 15px 20px;
     font-size: 16px;
+    margin: 0 10px;
     background-color: #d8c308;
     color: rgb(7, 6, 6);
     border: none;
